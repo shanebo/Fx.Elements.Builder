@@ -32,9 +32,9 @@ Class: Preset
 
 ### Arguments ###
 
-*elements* - (array) A collection of elements to Preset with 'normal/active' states.
+**elementsE** - (array) A collection of elements to Preset with 'normal/active' states.
 
-*states* - (object) { 'normal': {}, 'active': {} }
+**states** - (object) { 'normal': {}, 'active': {} }
 
 ### Example ###
 
@@ -55,9 +55,9 @@ Preset Method: use
 
 ### Arguments ###
 
-*normalElements* - (mixed) can be a single element or an array of elements to normalize. Can also be a string set to 'none' (sets no elements from that Preset's elements to 'normal' state) or 'all' (sets all elements from that Preset's elements to 'normal' state).
+**normalElements** - (mixed) can be a single element or an array of elements to normalize. Can also be a string set to 'none' (sets no elements from that Preset's elements to 'normal' state) or 'all' (sets all elements from that Preset's elements to 'normal' state).
 
-*activeElements* - (mixed) can be a single element or an array of elements to activate. Can also be a string set to 'none' (sets no elements from that Preset's elements to 'active' state) or 'all' (sets all elements from that Preset's elements to 'active' state).
+**activeElements** - (mixed) can be a single element or an array of elements to activate. Can also be a string set to 'none' (sets no elements from that Preset's elements to 'active' state) or 'all' (sets all elements from that Preset's elements to 'active' state).
 
 ### Example ###
 
@@ -79,9 +79,9 @@ Class: Fx.Elements.Builder
 
 ### Arguments ###
 
-*presets* - (array) A collection of Presets the class will dynamically build for.
+**presets** - (array) A collection of Presets the class will dynamically build for.
 
-*options* - (object, optional) Same as Fx options.
+**options** - (object, optional) Same as Fx options.
 
 ### Example ###
 
@@ -124,7 +124,7 @@ Fx.Elements.Builder Method: start
 
 ### Arguments ###
 
-*presets* - (array) accepts a collection of Preset instances along with their normal/active elements passed in via 'use' method.
+**presets** - (array) accepts a collection of Preset instances along with their normal/active elements passed in via 'use' method.
 
 ### Example ###
 
