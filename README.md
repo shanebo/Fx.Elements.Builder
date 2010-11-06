@@ -1,5 +1,5 @@
 Fx.Elements.Builder
-=====
+===================
 
 A Mootools class that dynamically generates preset animation properties for groups of elements using one Fx.Elements instance.
 
@@ -20,8 +20,8 @@ Let's cut to the chase and see the demo:
 [SEE THE DEMO](http://jsfiddle.net/zVTab/)
 
 
-
-## Docs ##
+Docs
+===================
 
 Class: Preset
 -------------
@@ -55,6 +55,7 @@ Preset Method: use
 ### Arguments ###
 
 normalElements - (mixed) can be a single element or an array of elements to normalize. Can also be a string set to 'none' (sets no elements from that Preset's elements to 'normal' state) or 'all' (sets all elements from that Preset's elements to 'normal' state).
+
 activeElements - (mixed) can be a single element or an array of elements to activate. Can also be a string set to 'none' (sets no elements from that Preset's elements to 'active' state) or 'all' (sets all elements from that Preset's elements to 'active' state).
 
 ### Example ###
@@ -128,6 +129,7 @@ presets - (array) accepts a collection of Preset instances along with their norm
 When you want to run the 'start' method of Fx.Elements.Builder, pass in an array of the Presets you're dealing with along with the elements you want to normalize/active. For example:
 
 	fx.start([
-		itemPreset.use('none', 'all'), // this actives all elements originally passed into this Preset instance
-		headingPreset.use('all', headings[3]) // this normalizes all headings elements except for heading[3]
+		itemPreset.use('none', 'all'), // this actives all item elements
+		headingPreset.use('all', headings[3]), // this normalizes all heading elements except for heading[3]. heading[3] gets activated
+		fooPreset.use($('oldFoo'), $('newFoo')), // this normalizes 'oldFoo' and activates 'newFoo'
 	]);
