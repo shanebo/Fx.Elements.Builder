@@ -1,6 +1,6 @@
 /*
 ---
-description: Clear definition and use of groups of related animations on multiple elements.
+description: A Mootools class that dynamically generates preset animation properties for groups of elements using one Fx.Elements instance.
 
 license: MIT-style
 
@@ -10,7 +10,7 @@ authors:
 requires:
 - more/Fx.Elements
 
-provides: [Fx.Elements.Builder, Fx.Preset]
+provides: [Preset, Fx.Elements.Builder]
 
 ...
 */
