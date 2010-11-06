@@ -17,7 +17,7 @@ Features
 
 Let's cut to the chase and see the demo:
 
-[SEE THE DEMO](http://jsfiddle.net/zVTab/)
+[SEE THE DEMO](http://jsfiddle.net/bYCXP/)
 
 
 Docs
