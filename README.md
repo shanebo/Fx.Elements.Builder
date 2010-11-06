@@ -17,8 +17,9 @@ Features
 
 Let's cut to the chase and see the demo:
 
+http://jsfiddle.net/zVTab/
 
-
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/zVTab/embedded/"></iframe>
 
 
 ## Docs ##
