@@ -32,7 +32,7 @@ Class: Preset
 
 ### Arguments ###
 
-**elementsE** - (array) A collection of elements to Preset with 'normal/active' states.
+**elements** - (array) A collection of elements to Preset with 'normal/active' states.
 
 **states** - (object) { 'normal': {}, 'active': {} }
 
